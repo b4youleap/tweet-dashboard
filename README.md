@@ -1,5 +1,8 @@
 # TweetDashboard
-This project (other than the Express server) was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17.
+This project (other than the Express server) was originally generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.17. It has been updated to use angular-cli version 1.0.0-beta.26.
+
+## Note about Windows vs. Unix development
+Adjustments are needed to run the serve-build scripts - see package.json for details.
 
 ## Twitter API
 Visit the [Twitter dev page](https://apps.twitter.com/) and create a basic application to gain access to necessary API credentials.
