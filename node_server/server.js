@@ -9,10 +9,10 @@ const port = process.env.PORT || 3000;
 const router = express.Router();
 const staticRoot = __dirname;
 const twitter = new twit({
-  consumer_key: CONSUMER_KEY,
-  consumer_secret: CONSUMER_SECRET,
-  access_token_key: ACCESS_TOKEN_KEY,
-  access_token_secret: ACCESS_TOKEN_SECRET
+  consumer_key: 'key',
+  consumer_secret: 'secret',
+  access_token_key: 'key',
+  access_token_secret: 'secret'
 });
 
 app.set('port', (port));

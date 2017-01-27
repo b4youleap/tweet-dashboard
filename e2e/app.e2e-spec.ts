@@ -1,10 +1,10 @@
-import { TestExpressPage } from './app.po';
+import { TweetDashboardPage } from './app.po';
 
-describe('test-express App', function() {
-  let page: TestExpressPage;
+describe('tweet-dashboard App', function() {
+  let page: TweetDashboardPage;
 
   beforeEach(() => {
-    page = new TestExpressPage();
+    page = new TweetDashboardPage();
   });
 
   it('should display message saying app works', () => {

@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class TestExpressPage {
+export class TweetDashboardPage {
   navigateTo() {
     return browser.get('/');
   }
